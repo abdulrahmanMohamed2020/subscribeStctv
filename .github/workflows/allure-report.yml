@@ -64,7 +64,7 @@ jobs:
         uses: Sibz/github-status-action@v1
         with: 
           authToken: ${{secrets.GITHUB_TOKEN}}
-          context: 'Test Summary Report'
+          context: 'Test Report'
           state: 'success'
           sha: ${{github.event.pull_request.head.sha || github.sha}}
           target_url:  https://github.com/abdulrahmanMohamed2020/subscribe-Stc-tv/${{ github.run_number }}
