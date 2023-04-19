@@ -22,6 +22,9 @@ public class Constants {
         currencyLite.put("tn","1.7 USD/month");
         currencyLite.put("ye","2.4 USD/month");
         currencyLite.put("ps","2.4 USD/month");
+        currencyLite.put("bh","2 BHD/month");
+        currencyLite.put("sa","15 SAR/month");
+        currencyLite.put("kw","1.2 KWD/month");
 
         return currencyLite;
     }
@@ -42,6 +45,9 @@ public class Constants {
         currencyClassic.put("tn","3.4 USD/month");
         currencyClassic.put("ye","4.8 USD/month");
         currencyClassic.put("ps","4.8 USD/month");
+        currencyClassic.put("bh","3 BHD/month");
+        currencyClassic.put("sa","25 SAR/month");
+        currencyClassic.put("kw","2.5 KWD/month");
 
         return currencyClassic;
     }
@@ -62,6 +68,9 @@ public class Constants {
         currencyPremium.put("tn","5.8 USD/month");
         currencyPremium.put("ye","7.2 USD/month");
         currencyPremium.put("ps","7.2 USD/month");
+        currencyPremium.put("bh","6 BHD/month");
+        currencyPremium.put("sa","60 SAR/month");
+        currencyPremium.put("kw","4.8 KWD/month");
 
         return currencyPremium;
     }
